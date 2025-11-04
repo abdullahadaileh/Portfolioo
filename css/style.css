@@ -577,9 +577,10 @@ a {
 
 .site-contact-details li {
   list-style: none;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  color: #fff; }
   .site-contact-details li > span {
-    color: #2c3e50;
+    color: #fff;
     letter-spacing: .1em;
     font-size: 12px;
     font-weight: 500;
@@ -717,4 +718,12 @@ body.light-theme .btn-outline-light {
 body.light-theme .btn-outline-light:hover {
   background: #333;
   color: #fff;
+}
+
+body.light-theme .site-contact-details li {
+  color: #333;
+}
+
+body.light-theme .site-contact-details li > span {
+  color: #333;
 }
