@@ -550,7 +550,7 @@ a {
 .form-control {
   border: none !important;
   background: #333;
-  color: #fff;
+  color: #fff !important;
   -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) !important; }
   .form-control:active, .form-control:focus {
@@ -681,7 +681,7 @@ body.light-theme .resume-item {
 
 body.light-theme .form-control {
   background: #fff;
-  color: #333;
+  color: #333 !important;
   border: 1px solid #ced4da;
 }
 
